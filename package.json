@@ -1,0 +1,21 @@
+{
+  "name": "es6-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --env development && node dist/bundle.js",
+    "build": "webpack --env production",
+    "watch": "webpack -w --env development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
